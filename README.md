@@ -19,24 +19,23 @@ Follow these steps to get your development environment set up:
 1. **Install the Simplified UAV Simulator**
 
 ```bash
-git clone [Simplified UAV Simulator Repository URL]
-cd [Simplified UAV Simulator Directory]
+git clone https://github.com/DennisWangCW/gym-uav.git
+cd  gym-uav
 pip3 install -e .
 ```
 
 2. **Install Reinforcement Learning Repo**
 
 ```bash
-git clone [Reinforcement Learning Repository URL]
-cd [Reinforcement Learning Directory]
+git clone https://github.com/DennisWangCW/stable-baselines3.git
+cd stable-baselines3
 pip3 install -e .
 ```
 
 3. **Training a Navigation Policy**
 
 ```bash
-git clone [Navigation Policy Repository URL]
-cd [Navigation Policy Directory]
+cd train_agent
 ```
 
 ### Training the Policy
@@ -70,12 +69,3 @@ python3 train.py --use_curriculum_learning
 ## Contributing
 
 We welcome contributions. Please feel free to reach out if you have any suggestions, bug reports, or contributions. 
-
-## License
-
-This project is licensed under the [MIT License] - see the LICENSE.md file for details.
-```
-
-请记得替换`[Simplified UAV Simulator Repository URL]`, `[Simplified UAV Simulator Directory]`, `[Reinforcement Learning Repository URL]`, `[Reinforcement Learning Directory]`, 和 `[Navigation Policy Repository URL]`, `[Navigation Policy Directory]`为实际的URL和目录名称。
-
-保存这段文本为`README.md`文件后，您的项目说明就已经准备好了。
